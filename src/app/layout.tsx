@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'; // Using Inter font for clean UI
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { AppHeader } from '@/components/header'; // New Header component
+import { AppFooter } from '@/components/footer';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
@@ -56,6 +57,7 @@ export default function RootLayout({
           <main className="flex-1 container mx-auto py-8 px-4 md:px-6 lg:px-8">
             {children}
           </main>
+          <AppFooter />
         </div>
         <Toaster />
       </body>
