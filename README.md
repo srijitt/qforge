@@ -69,8 +69,8 @@ QForge addresses these challenges by providing an AI-assisted platform that auto
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
-    cd qforge-app # Or your project directory name
+    git clone https://github.com/srijitt/qforge.git
+    cd qforge # Or your project directory name
     ```
 
 2.  **Install dependencies:**
@@ -83,7 +83,7 @@ QForge addresses these challenges by providing an AI-assisted platform that auto
 3.  **Configure Environment Variables:**
     Create a `.env` file in the root of your project (or rename `.env.example` if provided). Add your Google AI API key:
     ```env
-    GOOGLE_GENAI_API_KEY=your_google_ai_api_key_here
+    GEMINI_API_KEY=your_google_ai_api_key_here
     ```
     You can obtain a key from [Google AI Studio](https://aistudio.google.com/app/apikey).
 
