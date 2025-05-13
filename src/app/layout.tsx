@@ -7,8 +7,40 @@ import { AppHeader } from '@/components/header'; // New Header component
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  title: 'QForge',
-  description: 'Automated Question Paper Generator',
+  title: 'QForge | Automated Question Paper Generator',
+  description: 'QForge is an AI-powered platform for educators to effortlessly generate, customize, and manage question papers. Save time, ensure quality, and streamline your assessment process.',
+  keywords: [
+    'QForge',
+    'question paper generator',
+    'AI question paper',
+    'automated exam creation',
+    'education technology',
+    'assessment tools',
+    'teacher resources',
+    'exam generator',
+    'custom question papers',
+    'edtech'
+  ],
+  authors: [{ name: 'Srijit', url: 'https://www.linkedin.com/in/srijit-chakraborty154/'}],
+  creator: 'QForge',
+  openGraph: {
+    title: 'QForge | Automated Question Paper Generator',
+    description: 'Effortlessly generate and manage question papers with QForge, the AI-powered tool for educators.',
+    url: 'https://qforge.vercel.app',
+    siteName: 'QForge',
+    images: [
+      {
+        url: 'image.png',
+        width: 1200,
+        height: 630,
+        alt: 'QForge - Automated Question Paper Generator',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  themeColor: '#2563eb',
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
